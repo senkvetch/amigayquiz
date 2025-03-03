@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=MuseoModerno&display=swap');
+
+header {
+  background-color: #2374de;
+}
+
+h1 {
+    font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h2 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+div {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #2374de;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #2374de;
+  padding: 10px;
+  border-radius: 10px;
+}
+

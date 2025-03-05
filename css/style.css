@@ -42,3 +42,13 @@ div {
   border-radius: 10px;
 }
 
+a {
+  font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+  color:white;
+  text-decoration: none;
+}

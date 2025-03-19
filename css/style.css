@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=MuseoModerno&display=swap');
 
+body {
+  display: grid;
+  grid-template-columns: repeat (14, fr);
+  grid-column-gap: 24px;
+  grid-auto-flow: dense;
+  margin:auto;
+  background-color: whitesmoke;
+}
+
 header {
   background-color: #2374de;
+  grid-column: 1 / span 14;
+}
+
+main {
+  grid-column: 1 / span 9;
+  padding-left: 5%;
+  background-color: white;
+  padding-right: 10%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+aside {
+  grid-column: 14 / span 1;
+  margin-top: 94px;
+}
+
+.ad {
+  padding-top: 10px;
 }
 
 h1 {
@@ -9,6 +37,12 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  font-size: 40px;
+}
+
+.quizera {
+  padding-left: 20px;
+  color: white;
 }
 
 h2 {
@@ -21,6 +55,15 @@ h2 {
 }
 
 h3 {
+  font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+p {
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -34,12 +77,28 @@ div {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 10px;
+  margin-top: 15px;
+}
+
+#answers {
+  border-style: none;
+  display: flex;
+  padding:0%;
 }
 
 .button {
   background-color: #2374de;
   padding: 10px;
   border-radius: 10px;
+  width:fit-content;
+  margin-left: 10px;
+}
+
+#button1 {
+  background-color: #2374de;
+  padding: 10px;
+  border-radius: 10px;
+  width:fit-content;
 }
 
 a {

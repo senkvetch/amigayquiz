@@ -33,7 +33,7 @@ aside {
 }
 
 h1 {
-    font-family: "MuseoModerno", sans-serif;
+  font-family: "MuseoModerno", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -46,25 +46,24 @@ h1 {
 }
 
 h2 {
-    font-family: "Kumbh Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
       "YOPQ" 300;
 }
 
 h3 {
   font-family: "Kumbh Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "YOPQ" 300;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"YOPQ" 300;
 }
 
 p {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -103,11 +102,10 @@ div {
 
 a {
   font-family: "Kumbh Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "YOPQ" 300;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"YOPQ" 300;
   color:white;
   text-decoration: none;
 }
